@@ -1,0 +1,11 @@
+version: '3'
+services:
+  service:
+    build: .
+    volumes:
+      - ${PWD}:/usr/src/app
+    working_dir: /usr/src/app
+    user: ${UID}:${GID}
+    command:
+      bash -c "composer update && php index.php"
+

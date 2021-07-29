@@ -1,0 +1,5 @@
+syntax: glob
+.idea
+vendor
+log.txt
+composer.lock

@@ -1,0 +1,8 @@
+{
+	"name": "vendor_name/lidsteh",
+	"minimum-stability": "dev",
+	"require": {
+		"vladimir163/lead-generator": "*",
+		"ext-pcntl": "*"
+	}
+}
